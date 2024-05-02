@@ -1,0 +1,256 @@
+/* design.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+.nav a:hover {
+    background-color: #777;
+}
+
+img {
+    width: 100%; /* Make the image width fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves as a block element */
+}
+
+.welcome-text {
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Adjust font size */
+    color: #333; /* Adjust text color */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+footer {
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #333; /* Add a background color */
+    color: #fff;
+    text-align: center; /* Align text to the center */
+    font-size: 12px; 
+}
+
+.image-container {
+    position: relative; /* Set container position to relative */
+}
+
+.welcome-text {
+    position: absolute; /* Set text position to absolute */
+    top: 25%; /* Position the text 50% from the top */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translate(-50%, -50%); /* Translate the text back by half its width and height */
+    text-align: center; /* Center align the text */
+    font-size: 50px; /* Adjust font size */
+    color: #fff; /* Adjust text color */
+    padding: 10px; /* Add padding */
+    font-family: roboto;
+}
+
+.additional-text {
+    position: absolute; /* Set text position to absolute */
+    top: calc(40% + 40px); /* Position the text below the welcome text */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translateX(-50%); /* Translate the text back by half its width */
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Adjust font size */
+    color: #fff; /* Adjust text color */
+    padding: 20px; /* Add padding */
+    z-index: 1; /* Ensure the additional text is above the image */
+    width: 80%; /* Adjust the width of the text */
+}
+
+/* about us */
+.about{
+    font-size: 50px;
+}
+.about-content {
+    position: absolute; /* Set text position to absolute */
+    top: 50%; /* Position the text 50% from the top */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translate(-50%, -50%); /* Translate the text back by half its width and height */
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Adjust font size */
+    color: #fff; /* Adjust text color */
+    padding: 0; /* Add padding */
+    font-family: roboto;
+}
+
+/* ai */
+.ai-content {
+    padding-left: 10px; /* Add some padding to separate content from the border */
+    margin-right: 400px;
+    margin-left: 40px;
+}
+
+.ai-content p{
+    font-family: tahoma;
+    font-size: 15px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.ai-content h2 {
+    text-align: center;
+    font-family: segoe ui;
+}
+
+.ai-content h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+.side {
+    width: 290px; /* Adjust width as needed */
+    padding: 20px;
+    position: absolute; /* Position the sidebar absolutely */
+    top: 200px; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+
+.side img {
+    display: block; /* Change display to block */
+    margin-bottom: 10px;
+    width: 290px;
+    height: 240px;
+}
+
+/* iot */
+
+.iot-content {
+    padding-left: 10px; /* Add some padding to separate content from the border */
+    margin-right: 400px;
+    margin-left: 40px;
+}
+
+.iot-content p{
+    font-family: tahoma;
+    font-size: 15px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.iot-content h2 {
+    text-align: center;
+    font-family: segoe ui;
+}
+
+.iot-content h3{
+    text-align: center;
+    font-size: 17px;
+}
+
+.iot-content h4{
+    text-align: left;
+    font-size: 17px;
+}
+
+.side2 {
+    width: 290px; /* Adjust width as needed */
+    padding: 20px;
+    position: absolute; /* Position the sidebar absolutely */
+    top: 200px; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+
+.side2 img {
+    display: block; /* Change display to block */
+    margin-bottom: 10px;
+    width: 290px;
+    height: 215px;
+}
+
+/* bc */
+.bc-content {
+    padding-left: 10px; /* Add some padding to separate content from the border */
+    margin-right: 400px;
+    margin-left: 40px;
+}
+
+.bc-content p{
+    font-family: tahoma;
+    font-size: 15px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.bc-content h2 {
+    text-align: center;
+    font-family: segoe ui;
+}
+
+.side3 {
+    width: 290px; /* Adjust width as needed */
+    padding: 20px;
+    position: absolute; /* Position the sidebar absolutely */
+    top: 200px; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+
+.side3 img {
+    display: block; /* Change display to block */
+    margin-bottom: 20px;
+    width: 290px;
+    height: 220px;
+}
+
+
+/* ar */
+.ar-content {
+    padding-left: 10px; /* Add some padding to separate content from the border */
+    margin-right: 400px;
+    margin-left: 40px;
+}
+
+.ar-content p{
+    font-family: tahoma;
+    font-size: 15px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.ar-content h2 {
+    text-align: center;
+    font-family: segoe ui;
+}
+
+.side4 {
+    width: 290px; /* Adjust width as needed */
+    padding: 20px;
+    position: absolute; /* Position the sidebar absolutely */
+    top: 200px; /* Position from the top */
+    right: 0; /* Position from the right */
+}
+
+.side4 img {
+    display: block; /* Change display to block */
+    margin-bottom: 10px;
+    width: 290px;
+    height: 240px;
+}
